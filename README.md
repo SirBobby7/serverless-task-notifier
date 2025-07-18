@@ -70,7 +70,7 @@ Checked CloudWatch Logs for both Lambda functions to confirm successful invocati
 4. send_notification lambda function reads the task from DynamoDB and sends an email notification via SNS
 
 ![screenshots](screenshots/create-subscription.png), ![screenshots](screenshots/subscription-confirmed.png), ![screenshots](screenshots/bucket-upload.png), 
-![screenshots](screenshots/dynamodb-table-creation.png), ![screenshots](screenshots/event-bridge-schedule.png), ![screenshots](screenshots/sns-topic.png), , ![screenshots](screenshots/deployed-with-amplify.png), ![screenshots](screenshots/alert-notification-sent.png)
+![screenshots](screenshots/dynamodb-table-creation.png), ![screenshots](screenshots/event-bridge-schedule.png), ![screenshots](screenshots/sns-topic.png), , ![screenshots](screenshots/deployed-with-amplify.png), ![screenshots](screenshots/alert-notification-sent.png), ![screenshots](screenshots/interface.png)
 
 
 
