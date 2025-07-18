@@ -9,6 +9,7 @@ A serverless system that sends task reminders via email using:
 
 
 ~Problem Statement:
+
 In our increasingly busy world, people often struggle to keep track of important tasks, deadlines, or commitments especially when those tasks need to be remembered at a specific future time. Traditional calendar apps or to-do lists require manual follow-ups and constant checking, which is prone to human error.
 
 This project solves that problem by offering an automated serverless notification alert system that allows users to:
