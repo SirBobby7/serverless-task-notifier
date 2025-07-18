@@ -58,7 +58,9 @@ Ensured the HTML form, process_event Lambda, and DynamoDB record included taskId
 Checked CloudWatch Logs for both Lambda functions to confirm successful invocations and no runtime errors
 
 
+
 ~How It Works
+
 1. User submits a task via the form (name, email, task details, time)
 
 2. process_event Lambda processes & stores the task in DynamoDB
@@ -70,12 +72,16 @@ Checked CloudWatch Logs for both Lambda functions to confirm successful invocati
 ![screenshots](screenshots/create-subscription.png), ![screenshots](screenshots/subscription-confirmed.png), ![screenshots](screenshots/bucket-upload.png), 
 ![screenshots](screenshots/dynamodb-table-creation.png), ![screenshots](screenshots/event-bridge-schedule.png), ![screenshots](screenshots/sns-topic.png), , ![screenshots](screenshots/deployed-with-amplify.png), ![screenshots](screenshots/alert-notification-sent.png)
 
+
+
 ~Contributions
+
 Pull requests are welcome! Feel free to raise an issue first for discussion.
 
 
 
-
 Thanks for visiting this repo! :)
+
 Best regards,
+
 Robert Nyavor
