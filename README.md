@@ -8,7 +8,7 @@ A serverless system that sends task reminders via email using:
 - S3/Amplify for frontend hosting
 
 
-~Problem Statement
+~Problem Statement:
 In our increasingly busy world, people often struggle to keep track of important tasks, deadlines, or commitments especially when those tasks need to be remembered at a specific future time. Traditional calendar apps or to-do lists require manual follow-ups and constant checking, which is prone to human error.
 
 This project solves that problem by offering an automated serverless notification alert system that allows users to:
@@ -66,8 +66,8 @@ Checked CloudWatch Logs for both Lambda functions to confirm successful invocati
 
 4. send_notification lambda function reads the task from DynamoDB and sends an email notification via SNS
 
-![screenshots](screenshots/alert-notification-sent.png), ![screenshots](screenshots/bucket-upload.png), ![screenshots](screenshots/create-subscription.png), ![screenshots](screenshots/deployed-with-amplify.png)
-![screenshots](screenshots/dynamodb-table-creation.png), ![screenshots](screenshots/event-bridge-schedule.png), ![screenshots](screenshots/sns-topic.png), ![screenshots](screenshots/subscription-confirmed.png), ![screenshots](architecture-diagram.jpeg)
+![screenshots](screenshots/create-subscription.png), ![screenshots](screenshots/subscription-confirmed.png), ![screenshots](screenshots/bucket-upload.png), 
+![screenshots](screenshots/dynamodb-table-creation.png), ![screenshots](screenshots/event-bridge-schedule.png), ![screenshots](screenshots/sns-topic.png), , ![screenshots](screenshots/deployed-with-amplify.png), ![screenshots](screenshots/alert-notification-sent.png)
 
 ~Contributions
 Pull requests are welcome! Feel free to raise an issue first for discussion.
